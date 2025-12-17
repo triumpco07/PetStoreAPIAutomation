@@ -1,8 +1,34 @@
-<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>PetStoreAutomation</groupId>
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <build>
+  <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.14.1</version>        
+        </plugin>
+    
+    <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.5.4</version>
+          <configuration>
+          	<suiteXmlFiles>
+          		<suiteXmlFile>testng.xml</suiteXmlFile>
+         	</suiteXmlFiles>
+          </configuration>
+          
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  
   
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
@@ -69,6 +95,17 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.5.1</version>
 </dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.12.4</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.12.4</version>
+  </dependency>
 
   
   </dependencies>
