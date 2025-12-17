@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import api.endpoints.userEndPoints;
+import api.endpoints.userEndPoints2;
 import api.payload.User_Pojo;
 import api.utilities.DataProviders;
 import io.restassured.response.Response;
@@ -29,12 +30,20 @@ public class DDTests {
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
+	@Test(priority=2, dataProvider="Data", dataProviderClass=DataProviders.class)
+	public void testUserLoginDD(String userID, String userName,String fName,  String lName, String userEmail, String Pwd, String Phone) {
+		Response response = userEndPoints2.userLogin(userName, Pwd);
+		Assert.assertEquals(response.getStatusCode(), 200);
+	}
 	
-	@Test(priority=2, dataProvider="UserNames", dataProviderClass = DataProviders.class)
+	
+	@Test(priority=3, dataProvider="UserNames", dataProviderClass = DataProviders.class)
 	public void testDeleteUSerByName(String userName) {
 		Response response = userEndPoints.deleteUser(userName);
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
 	}
+	
+	
 	
 }

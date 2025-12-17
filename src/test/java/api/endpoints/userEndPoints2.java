@@ -78,5 +78,23 @@ public class userEndPoints2{
 		return response;
 	}
 	
+	//User login
+	public static Response userLogin(String username, String password) {
+		String login_url = getURL().getString("login_url");
+		
+		Response response = given()
+			.queryParam("username", username)
+			.queryParam("username", username)
+			.log().all()
+		.when()
+			.get(login_url);
+		
+		
+		return response;
+		
+	}
+	
+	
+	
 	
 }

@@ -54,6 +54,22 @@ public class userTests2 {
 	
 	
 	@Test(priority=2)
+	public void testUserLogin() {
+		logger.info("********************User Login***********************");
+		
+		Response response = userEndPoints2.userLogin(this.userPayload.getUsername(), this.userPayload.getPassword());
+		
+		response.then().log().all();
+		
+		Assert.assertEquals(response.getStatusCode(), 200);
+		
+	    logger.info("********************User Login Successful***********************");
+
+	}
+	
+	
+	
+	@Test(priority=3)
 	public void testGetUserByName() {
 		
 		logger.info("********************Reading User Info***********************");
@@ -66,7 +82,7 @@ public class userTests2 {
 
 	}
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	public void testUpdateUserName() {
 		
 		logger.info("********************Updating User***********************");
@@ -91,7 +107,7 @@ public class userTests2 {
 		Assert.assertEquals(updatedResponse.getStatusCode(), 200);
 	}
 	
-	@Test(priority=4)
+	@Test(priority=5)
 	public void testDeleteUserByName() {
 		
 		logger.info("********************Deleting User***********************");
@@ -102,5 +118,8 @@ public class userTests2 {
 		logger.info("********************User Deleted***********************");
 
 	}
+	
+	
+	
 	
 }
