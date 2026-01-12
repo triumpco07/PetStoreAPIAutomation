@@ -96,16 +96,27 @@
     <version>5.5.1</version>
 </dependency>
 
+<!-- Log4j2 API -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
-    <version>2.12.4</version>
-  </dependency>
-  <dependency>
+    <version>2.22.1</version>
+</dependency>
+
+<!-- Log4j2 Core -->
+<dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-core</artifactId>
-    <version>2.12.4</version>
-  </dependency>
+    <version>2.22.1</version>
+</dependency>
+
+<!-- Log4j2 SLF4J Bridge -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.22.1</version>
+</dependency>
+
 
   
   </dependencies>

@@ -1,0 +1,420 @@
+16:01:10.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.846 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.856 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.856 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.866 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.879 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.885 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.885 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.891 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.892 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.903 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.903 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.910 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.910 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.915 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.915 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.923 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.924 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.929 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:10.929 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:10.953 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:10.956 [main] INFO  api.test.StoreTests - Order Payload: {petId=101, quantity=1, id=10001, shipDate=2026-01-07T10:00:00.000Z, complete=true, status=placed}
+16:01:13.685 [main] INFO  api.test.StoreTests - Response Body: {"id":10001,"petId":101,"quantity":1,"shipDate":"2026-01-07T10:00:00.000+0000","status":"placed","complete":true}
+16:01:14.176 [main] INFO  api.test.StoreTests - Response time: 1890 ms
+16:01:14.176 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:14.180 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:14.182 [main] INFO  api.test.StoreTests - Order Payload: {petId=102, quantity=2, id=10002, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:15.664 [main] INFO  api.test.StoreTests - Response Body: {"id":10002,"petId":102,"quantity":2,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:15.746 [main] INFO  api.test.StoreTests - Response time: 1477 ms
+16:01:15.746 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:15.749 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:15.750 [main] INFO  api.test.StoreTests - Order Payload: {petId=103, quantity=3, id=10003, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:17.415 [main] INFO  api.test.StoreTests - Response Body: {"id":10003,"petId":103,"quantity":3,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:17.484 [main] INFO  api.test.StoreTests - Response time: 1658 ms
+16:01:17.484 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:17.486 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:17.486 [main] INFO  api.test.StoreTests - Order Payload: {petId=104, quantity=4, id=10004, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:18.768 [main] INFO  api.test.StoreTests - Response Body: {"id":10004,"petId":104,"quantity":4,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:18.835 [main] INFO  api.test.StoreTests - Response time: 1273 ms
+16:01:18.835 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:18.838 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:18.838 [main] INFO  api.test.StoreTests - Order Payload: {petId=105, quantity=5, id=10005, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:20.507 [main] INFO  api.test.StoreTests - Response Body: {"id":10005,"petId":105,"quantity":5,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:20.567 [main] INFO  api.test.StoreTests - Response time: 1662 ms
+16:01:20.567 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:20.569 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:20.569 [main] INFO  api.test.StoreTests - Order Payload: {petId=106, quantity=6, id=10006, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:22.487 [main] INFO  api.test.StoreTests - Response Body: {"id":10006,"petId":106,"quantity":6,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:22.541 [main] INFO  api.test.StoreTests - Response time: 1912 ms
+16:01:22.541 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:22.543 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:22.543 [main] INFO  api.test.StoreTests - Order Payload: {petId=107, quantity=7, id=10007, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:24.603 [main] INFO  api.test.StoreTests - Response Body: {"id":10007,"petId":107,"quantity":7,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:24.668 [main] INFO  api.test.StoreTests - Response time: 2055 ms
+16:01:24.669 [main] WARN  api.test.StoreTests - Order API response is slow: 2055 ms
+16:01:24.669 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:24.670 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:24.672 [main] INFO  api.test.StoreTests - Order Payload: {petId=108, quantity=8, id=10008, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:26.691 [main] INFO  api.test.StoreTests - Response Body: {"id":10008,"petId":108,"quantity":8,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:26.735 [main] INFO  api.test.StoreTests - Response time: 2015 ms
+16:01:26.735 [main] WARN  api.test.StoreTests - Order API response is slow: 2015 ms
+16:01:26.735 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:26.737 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:26.737 [main] INFO  api.test.StoreTests - Order Payload: {petId=109, quantity=9, id=10009, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:28.232 [main] INFO  api.test.StoreTests - Response Body: {"id":10009,"petId":109,"quantity":9,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:28.269 [main] INFO  api.test.StoreTests - Response time: 1491 ms
+16:01:28.269 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:28.271 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:28.271 [main] INFO  api.test.StoreTests - Order Payload: {petId=110, quantity=10, id=10010, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:30.128 [main] INFO  api.test.StoreTests - Response Body: {"id":10010,"petId":110,"quantity":10,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:30.198 [main] INFO  api.test.StoreTests - Response time: 1851 ms
+16:01:30.198 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:30.199 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:30.200 [main] INFO  api.test.StoreTests - Order Payload: {petId=111, quantity=11, id=10011, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:31.864 [main] INFO  api.test.StoreTests - Response Body: {"id":10011,"petId":111,"quantity":11,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:31.906 [main] INFO  api.test.StoreTests - Response time: 1659 ms
+16:01:31.906 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:31.909 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:31.909 [main] INFO  api.test.StoreTests - Order Payload: {petId=112, quantity=12, id=10012, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:33.149 [main] INFO  api.test.StoreTests - Response Body: {"id":10012,"petId":112,"quantity":12,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:33.209 [main] INFO  api.test.StoreTests - Response time: 1235 ms
+16:01:33.209 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:33.217 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:33.217 [main] INFO  api.test.StoreTests - Order Payload: {petId=113, quantity=13, id=10013, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:34.810 [main] INFO  api.test.StoreTests - Response Body: {"id":10013,"petId":113,"quantity":13,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:34.848 [main] INFO  api.test.StoreTests - Response time: 1587 ms
+16:01:34.848 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:34.849 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:34.849 [main] INFO  api.test.StoreTests - Order Payload: {petId=114, quantity=14, id=10014, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:36.433 [main] INFO  api.test.StoreTests - Response Body: {"id":10014,"petId":114,"quantity":14,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:36.477 [main] INFO  api.test.StoreTests - Response time: 1579 ms
+16:01:36.500 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:36.503 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:36.503 [main] INFO  api.test.StoreTests - Order Payload: {petId=115, quantity=15, id=10015, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:38.000 [main] INFO  api.test.StoreTests - Response Body: {"id":10015,"petId":115,"quantity":15,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:38.042 [main] INFO  api.test.StoreTests - Response time: 1488 ms
+16:01:38.042 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:38.043 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:38.044 [main] INFO  api.test.StoreTests - Order Payload: {petId=116, quantity=16, id=10016, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:39.573 [main] INFO  api.test.StoreTests - Response Body: {"id":10016,"petId":116,"quantity":16,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:39.642 [main] INFO  api.test.StoreTests - Response time: 1524 ms
+16:01:39.642 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:39.645 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:39.647 [main] INFO  api.test.StoreTests - Order Payload: {petId=117, quantity=17, id=10017, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:41.232 [main] INFO  api.test.StoreTests - Response Body: {"id":10017,"petId":117,"quantity":17,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:41.268 [main] INFO  api.test.StoreTests - Response time: 1580 ms
+16:01:41.270 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:41.270 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:41.270 [main] INFO  api.test.StoreTests - Order Payload: {petId=118, quantity=18, id=10018, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:42.538 [main] INFO  api.test.StoreTests - Response Body: {"id":10018,"petId":118,"quantity":18,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:42.580 [main] INFO  api.test.StoreTests - Response time: 1257 ms
+16:01:42.580 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:42.583 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:42.583 [main] INFO  api.test.StoreTests - Order Payload: {petId=119, quantity=19, id=10019, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:43.912 [main] INFO  api.test.StoreTests - Response Body: {"id":10019,"petId":119,"quantity":19,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:43.965 [main] INFO  api.test.StoreTests - Response time: 1326 ms
+16:01:43.966 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:43.966 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:43.966 [main] INFO  api.test.StoreTests - Order Payload: {petId=120, quantity=20, id=10020, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:45.313 [main] INFO  api.test.StoreTests - Response Body: {"id":10020,"petId":120,"quantity":20,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:45.348 [main] INFO  api.test.StoreTests - Response time: 1341 ms
+16:01:45.348 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:45.349 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:45.349 [main] INFO  api.test.StoreTests - Order Payload: {petId=121, quantity=21, id=10021, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:46.633 [main] INFO  api.test.StoreTests - Response Body: {"id":10021,"petId":121,"quantity":21,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:46.670 [main] INFO  api.test.StoreTests - Response time: 1278 ms
+16:01:46.670 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:46.671 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:46.671 [main] INFO  api.test.StoreTests - Order Payload: {petId=122, quantity=22, id=10022, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:48.049 [main] INFO  api.test.StoreTests - Response Body: {"id":10022,"petId":122,"quantity":22,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:48.086 [main] INFO  api.test.StoreTests - Response time: 1373 ms
+16:01:48.086 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:48.087 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:48.087 [main] INFO  api.test.StoreTests - Order Payload: {petId=123, quantity=23, id=10023, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:49.506 [main] INFO  api.test.StoreTests - Response Body: {"id":10023,"petId":123,"quantity":23,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:49.546 [main] INFO  api.test.StoreTests - Response time: 1416 ms
+16:01:49.546 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:49.547 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:49.547 [main] INFO  api.test.StoreTests - Order Payload: {petId=124, quantity=24, id=10024, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:50.860 [main] INFO  api.test.StoreTests - Response Body: {"id":10024,"petId":124,"quantity":24,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:50.900 [main] INFO  api.test.StoreTests - Response time: 1308 ms
+16:01:50.900 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:50.900 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:50.900 [main] INFO  api.test.StoreTests - Order Payload: {petId=125, quantity=25, id=10025, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:52.286 [main] INFO  api.test.StoreTests - Response Body: {"id":10025,"petId":125,"quantity":25,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:52.321 [main] INFO  api.test.StoreTests - Response time: 1382 ms
+16:01:52.321 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:52.322 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:52.322 [main] INFO  api.test.StoreTests - Order Payload: {petId=126, quantity=26, id=10026, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:53.965 [main] INFO  api.test.StoreTests - Response Body: {"id":10026,"petId":126,"quantity":26,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:53.997 [main] INFO  api.test.StoreTests - Response time: 1637 ms
+16:01:53.997 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:53.998 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:53.999 [main] INFO  api.test.StoreTests - Order Payload: {petId=127, quantity=27, id=10027, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:55.669 [main] INFO  api.test.StoreTests - Response Body: {"id":10027,"petId":127,"quantity":27,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:55.705 [main] INFO  api.test.StoreTests - Response time: 1668 ms
+16:01:55.705 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:55.706 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:55.706 [main] INFO  api.test.StoreTests - Order Payload: {petId=128, quantity=28, id=10028, shipDate=2026-01-08T12:30:00.000Z, complete=false, status=placed}
+16:01:57.015 [main] INFO  api.test.StoreTests - Response Body: {"id":10028,"petId":128,"quantity":28,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":false}
+16:01:57.055 [main] INFO  api.test.StoreTests - Response time: 1305 ms
+16:01:57.055 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:57.056 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:57.056 [main] INFO  api.test.StoreTests - Order Payload: {petId=129, quantity=29, id=10029, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:58.632 [main] INFO  api.test.StoreTests - Response Body: {"id":10029,"petId":129,"quantity":29,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:58.664 [main] INFO  api.test.StoreTests - Response time: 1571 ms
+16:01:58.664 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:01:58.665 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Started ========
+16:01:58.666 [main] INFO  api.test.StoreTests - Order Payload: {petId=130, quantity=30, id=10030, shipDate=2026-01-08T12:30:00.000Z, complete=true, status=placed}
+16:01:59.936 [main] INFO  api.test.StoreTests - Response Body: {"id":10030,"petId":130,"quantity":30,"shipDate":"2026-01-08T12:30:00.000+0000","status":"placed","complete":true}
+16:01:59.974 [main] INFO  api.test.StoreTests - Response time: 1267 ms
+16:01:59.974 [main] INFO  api.test.StoreTests - ======== Place Order For Pet (DDT) Completed ========
+16:05:01.782 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Started ========
+16:05:04.163 [main] INFO  api.test.StoreTests - Response Body: {"string":266,"unavailable":2,"Old":1,"Busy":1,"pending":84,"buy":1,"available":486,"weisskeiner1":1,"Not Available":1,"sleeping":1,"empty":1,"avilable":1,"updateavailables1":1,"VL4EQE":1,"\"available\"":1,"avaliable":1,"sold2":3,"Available":1,"newavailable":2,"sold":78,"available1":2,"avalible":1,"pet status":1,"wrong":1,"invalid_status":2,"Sick":1,"avaible":2,"status":1}
+16:05:04.164 [main] INFO  api.test.StoreTests - ======== Step 1: Basic Contract Validation ========
+16:05:04.168 [main] INFO  api.test.StoreTests - ======== Step 2: Response Structure Validation ========
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: string = 266
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: unavailable = 2
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: Old = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: Busy = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: pending = 84
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: buy = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: available = 486
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: weisskeiner1 = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: Not Available = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: sleeping = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: empty = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: avilable = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: updateavailables1 = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: VL4EQE = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: "available" = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: avaliable = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: sold2 = 3
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: Available = 1
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: newavailable = 2
+16:05:04.294 [main] DEBUG api.test.StoreTests - Status: sold = 78
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: available1 = 2
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: avalible = 1
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: pet status = 1
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: wrong = 1
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: invalid_status = 2
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: Sick = 1
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: avaible = 2
+16:05:04.296 [main] DEBUG api.test.StoreTests - Status: status = 1
+16:05:04.296 [main] INFO  api.test.StoreTests - ======== Step 3: Business Logic Validation ========
+16:05:04.297 [main] INFO  api.test.StoreTests - ✅ Required status 'available' exists with count: 486
+16:05:04.297 [main] INFO  api.test.StoreTests - ✅ Required status 'pending' exists with count: 84
+16:05:04.297 [main] INFO  api.test.StoreTests - ✅ Required status 'sold' exists with count: 78
+16:05:04.297 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'string'. Valid statuses are: [available, pending, sold]
+16:05:04.297 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'unavailable'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'Old'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'Busy'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'buy'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'weisskeiner1'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'Not Available'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'sleeping'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'empty'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'avilable'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'updateavailables1'. Valid statuses are: [available, pending, sold]
+16:05:04.298 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'VL4EQE'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: '"available"'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'avaliable'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'sold2'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'Available'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'newavailable'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'available1'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'avalible'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'pet status'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'wrong'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'invalid_status'. Valid statuses are: [available, pending, sold]
+16:05:04.299 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'Sick'. Valid statuses are: [available, pending, sold]
+16:05:04.300 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'avaible'. Valid statuses are: [available, pending, sold]
+16:05:04.300 [main] WARN  api.test.StoreTests - Invalid status found in inventory: 'status'. Valid statuses are: [available, pending, sold]
+16:05:04.300 [main] WARN  api.test.StoreTests - ⚠️ Found 25 invalid status(es) in inventory: string, unavailable, Old, Busy, buy, weisskeiner1, Not Available, sleeping, empty, avilable, updateavailables1, VL4EQE, "available", avaliable, sold2, Available, newavailable, available1, avalible, pet status, wrong, invalid_status, Sick, avaible, status
+16:05:04.300 [main] INFO  api.test.StoreTests - ======== Step 4: Case Sensitivity Validation ========
+16:05:04.300 [main] WARN  api.test.StoreTests - ⚠️ Case-inconsistent status found: 'Available' (duplicate of 'available')
+16:05:04.300 [main] WARN  api.test.StoreTests - ⚠️ Found 1 case-inconsistent status(es): Available
+16:05:04.301 [main] INFO  api.test.StoreTests - ======== Step 5: Data Accuracy Validation ========
+16:05:04.302 [main] INFO  api.test.StoreTests - Total inventory count: 945
+16:05:04.304 [main] INFO  api.test.StoreTests - ======== Step 6: Performance Validation ========
+16:05:04.305 [main] INFO  api.test.StoreTests - Response time: 1657 ms
+16:05:04.305 [main] INFO  api.test.StoreTests - ======== Test Summary ========
+16:05:04.306 [main] INFO  api.test.StoreTests - Total status entries: 28
+16:05:04.306 [main] INFO  api.test.StoreTests - Total inventory count: 945
+16:05:04.306 [main] INFO  api.test.StoreTests - Response time: 1657 ms
+16:05:04.306 [main] INFO  api.test.StoreTests -   string: 266
+16:05:04.306 [main] INFO  api.test.StoreTests -   unavailable: 2
+16:05:04.306 [main] INFO  api.test.StoreTests -   Old: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   Busy: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   pending: 84
+16:05:04.306 [main] INFO  api.test.StoreTests -   buy: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   available: 486
+16:05:04.306 [main] INFO  api.test.StoreTests -   weisskeiner1: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   Not Available: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   sleeping: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   empty: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   avilable: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   updateavailables1: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   VL4EQE: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   "available": 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   avaliable: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   sold2: 3
+16:05:04.306 [main] INFO  api.test.StoreTests -   Available: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   newavailable: 2
+16:05:04.306 [main] INFO  api.test.StoreTests -   sold: 78
+16:05:04.306 [main] INFO  api.test.StoreTests -   available1: 2
+16:05:04.306 [main] INFO  api.test.StoreTests -   avalible: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   pet status: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   wrong: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   invalid_status: 2
+16:05:04.306 [main] INFO  api.test.StoreTests -   Sick: 1
+16:05:04.306 [main] INFO  api.test.StoreTests -   avaible: 2
+16:05:04.306 [main] INFO  api.test.StoreTests -   status: 1
+16:05:04.307 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Completed Successfully ========
+16:05:04.316 [main] INFO  api.test.StoreTests - ======== Negative Test: Wrong HTTP Method ========
+16:05:05.435 [main] INFO  api.test.StoreTests - Response Status Code: 405
+16:05:05.436 [main] INFO  api.test.StoreTests - ======== Wrong HTTP Method Test Completed ========
+16:05:05.440 [main] INFO  api.test.StoreTests - ======== Performance Test: Response Time ========
+16:05:06.597 [main] INFO  api.test.StoreTests - Response time: 1153 ms
+16:05:06.597 [main] INFO  api.test.StoreTests - Response time is within acceptable range
+16:05:06.602 [main] INFO  api.test.StoreTests - ======== Performance Test Completed ========
+16:05:06.703 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:06.705 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.020 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.021 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.040 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.040 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.072 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.090 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.091 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.108 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.108 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.125 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.125 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.142 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.143 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.159 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.160 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.172 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.173 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.189 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.190 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.204 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.205 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.222 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.224 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.235 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.236 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.249 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.249 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.263 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.264 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.277 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.278 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.291 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.292 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.309 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.311 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.325 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.326 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.343 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.344 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.360 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.360 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.377 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.378 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.390 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.391 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.404 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.404 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.417 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.417 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.428 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.428 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.444 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.454 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.455 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.464 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.464 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.475 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.476 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.485 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.486 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.496 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.497 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.507 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.507 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.520 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.521 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.531 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.532 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.541 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.543 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.553 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.554 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.563 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.563 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.586 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.587 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.596 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.596 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.605 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.606 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.616 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.617 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.628 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.628 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.636 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.636 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.646 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.646 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.655 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.656 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.663 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.663 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.678 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.680 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.688 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.689 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.699 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.699 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.707 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.707 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.715 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.716 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.723 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.724 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.733 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.734 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.741 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.741 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.750 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.751 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.765 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.766 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.778 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.778 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.786 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.786 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.796 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.797 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.815 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.816 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.823 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.823 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.833 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.842 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.842 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.851 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:05:07.853 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:05:07.862 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels

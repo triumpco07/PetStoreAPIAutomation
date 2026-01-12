@@ -20,8 +20,16 @@ public class ExtentReportManager implements ITestListener
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
     public ExtentTest test;
+    
+    // ThreadLocal to store ExtentTest instance for each thread
+    private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
     String repName;
+    
+    // Method to get ExtentTest instance from test methods
+    public static ExtentTest getTest() {
+        return extentTest.get();
+    }
 
     public void onStart(ITestContext testContext)
     {
@@ -31,21 +39,32 @@ public class ExtentReportManager implements ITestListener
         sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); // specify location of the report
 
         sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject"); // Title of report
-        sparkReporter.config().setReportName("Pet Store Users API"); // name of the report
+        sparkReporter.config().setReportName("Pet Store API - Users & Pets"); // name of the report
         sparkReporter.config().setTheme(Theme.DARK);
 
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
 
-        extent.setSystemInfo("Application", "Pest Store Users API");
+        extent.setSystemInfo("Application", "Pet Store API - Users & Pets");
         extent.setSystemInfo("Operating System", System.getProperty("os.name"));
         extent.setSystemInfo("User Name", System.getProperty("user.name"));
         extent.setSystemInfo("Environment", "QA");
     }
 
-    public void onTestSuccess(ITestResult result)
+    public void onTestStart(ITestResult result)
     {
         test = extent.createTest(result.getName());
+        test.assignCategory(result.getMethod().getGroups());
+        extentTest.set(test); // Store in ThreadLocal for access in test methods
+    }
+
+    public void onTestSuccess(ITestResult result)
+    {
+        test = extentTest.get();
+        if (test == null) {
+            test = extent.createTest(result.getName());
+            extentTest.set(test);
+        }
         test.assignCategory(result.getMethod().getGroups());
         test.createNode(result.getName());
         test.log(Status.PASS, "Test Passed");
@@ -53,7 +72,11 @@ public class ExtentReportManager implements ITestListener
 
     public void onTestFailure(ITestResult result)
     {
-        test = extent.createTest(result.getName());
+        test = extentTest.get();
+        if (test == null) {
+            test = extent.createTest(result.getName());
+            extentTest.set(test);
+        }
         test.createNode(result.getName());
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.FAIL, "Test Failed");
@@ -62,11 +85,20 @@ public class ExtentReportManager implements ITestListener
 
     public void onTestSkipped(ITestResult result)
     {
-        test = extent.createTest(result.getName());
+        test = extentTest.get();
+        if (test == null) {
+            test = extent.createTest(result.getName());
+            extentTest.set(test);
+        }
         test.createNode(result.getName());
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.SKIP, "Test Skipped");
         test.log(Status.SKIP, result.getThrowable().getMessage());
+    }
+    
+    public void onTestFinish(ITestResult result)
+    {
+        extentTest.remove(); // Clean up ThreadLocal after test
     }
 
     public void onFinish(ITestContext testContext)

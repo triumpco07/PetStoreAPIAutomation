@@ -31,14 +31,30 @@ public class ExcelUtility {
     // Get row count
     // ======================================================
     public int getRowCount(String sheetName) throws IOException {
+
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);
+
+        if (sheet == null) {
+            // List available sheets for better error message
+            StringBuilder availableSheets = new StringBuilder();
+            for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+                if (i > 0) availableSheets.append(", ");
+                availableSheets.append(workbook.getSheetName(i));
+            }
+            workbook.close();
+            fi.close();
+            throw new RuntimeException("Sheet not found: '" + sheetName + "'. Available sheets: [" + availableSheets.toString() + "]");
+        }
+
         int rowcount = sheet.getLastRowNum();
         workbook.close();
         fi.close();
+
         return rowcount;
     }
+
 
     // ======================================================
     // Get column count
@@ -47,6 +63,17 @@ public class ExcelUtility {
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);
+        if (sheet == null) {
+            // List available sheets for better error message
+            StringBuilder availableSheets = new StringBuilder();
+            for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+                if (i > 0) availableSheets.append(", ");
+                availableSheets.append(workbook.getSheetName(i));
+            }
+            workbook.close();
+            fi.close();
+            throw new RuntimeException("Sheet not found: '" + sheetName + "'. Available sheets: [" + availableSheets.toString() + "]");
+        }
         row = sheet.getRow(rownum);
         int cellcount = row.getLastCellNum();
         workbook.close();
@@ -61,6 +88,17 @@ public class ExcelUtility {
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);
+        if (sheet == null) {
+            // List available sheets for better error message
+            StringBuilder availableSheets = new StringBuilder();
+            for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+                if (i > 0) availableSheets.append(", ");
+                availableSheets.append(workbook.getSheetName(i));
+            }
+            workbook.close();
+            fi.close();
+            throw new RuntimeException("Sheet not found: '" + sheetName + "'. Available sheets: [" + availableSheets.toString() + "]");
+        }
         row = sheet.getRow(rownum);
         cell = row.getCell(colnum);
 

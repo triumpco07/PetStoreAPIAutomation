@@ -94,6 +94,19 @@ public class userEndPoints2{
 		
 	}
 	
+	//User Logout
+	public static Response userLogout() {
+		String logout_url = getURL().getString("logout_url");
+		
+		Response response = given().
+								when()
+								.get(logout_url);
+		
+		return response;
+	}
+	
+	
+	
 	
 	
 	

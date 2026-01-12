@@ -1,0 +1,388 @@
+18:22:59.114 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.125 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.126 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.126 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.129 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.135 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.135 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.136 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.138 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.142 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.142 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.143 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.145 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.153 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.157 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.158 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.158 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.161 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.168 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.169 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.170 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.175 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.181 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.181 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.182 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.184 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.189 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.189 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.190 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.193 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.208 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.209 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.209 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.214 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.220 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.220 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.220 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.223 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.228 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.228 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.230 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.233 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.238 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.238 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.238 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.241 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.244 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.245 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.245 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.248 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.252 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.253 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.253 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.256 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.261 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.261 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.261 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.265 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.269 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.269 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.269 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.272 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.275 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.277 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.277 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.281 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.287 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:22:59.287 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:22:59.287 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:22:59.290 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:22:59.294 [main] INFO  api.test.PetTests - ======== Find Pet by ID Test Started ========
+18:22:59.294 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID
+18:23:00.453 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1001,"category":{"id":1,"name":"Dogs"},"name":"Bruno","photoUrls":["https://pet.com/bruno.jpg"],"tags":[{"id":101,"name":"friendly"}],"status":"available"}
+18:23:00.458 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1001
+18:23:00.458 [main] INFO  api.test.PetTests - Step 2: Finding pet by dynamically captured ID: 1001
+18:23:01.763 [main] INFO  api.test.PetTests - Get Pet Response Body: {"id":1001,"category":{"id":1,"name":"Dogs"},"name":"Bruno","photoUrls":["https://pet.com/bruno.jpg"],"tags":[{"id":101,"name":"friendly"}],"status":"available"}
+18:23:01.794 [main] INFO  api.test.PetTests - ======== Pet found successfully with ID: 1001 ========
+18:23:01.794 [main] INFO  api.test.PetTests - Data integrity validated - All fields match between created and retrieved pet
+18:23:01.796 [main] INFO  api.test.PetTests - ======== Find Pet by ID Test Started ========
+18:23:01.796 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID
+18:23:02.947 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1002,"category":{"id":2,"name":"Cats"},"name":"Max","photoUrls":["https://pet.com/max1.jpg","https://pet.com/max2.jpg"],"tags":[{"id":201,"name":"cute"},{"id":202,"name":"trained"}],"status":"pending"}
+18:23:02.953 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1002
+18:23:02.954 [main] INFO  api.test.PetTests - Step 2: Finding pet by dynamically captured ID: 1002
+18:23:04.176 [main] INFO  api.test.PetTests - Get Pet Response Body: {"id":1002,"category":{"id":2,"name":"Cats"},"name":"Max","photoUrls":["https://pet.com/max1.jpg","https://pet.com/max2.jpg"],"tags":[{"id":201,"name":"cute"},{"id":202,"name":"trained"}],"status":"pending"}
+18:23:04.228 [main] INFO  api.test.PetTests - ======== Pet found successfully with ID: 1002 ========
+18:23:04.228 [main] INFO  api.test.PetTests - Data integrity validated - All fields match between created and retrieved pet
+18:23:04.231 [main] INFO  api.test.PetTests - ======== Find Pet by ID Test Started ========
+18:23:04.231 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID
+18:23:05.502 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1003,"category":{"id":3,"name":"Birds"},"name":"Rocky","photoUrls":["https://pet.com/rocky.jpg"],"tags":[{"id":301,"name":"aggressive"}],"status":"sold"}
+18:23:05.507 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1003
+18:23:05.507 [main] INFO  api.test.PetTests - Step 2: Finding pet by dynamically captured ID: 1003
+18:23:06.754 [main] INFO  api.test.PetTests - Get Pet Response Body: {"id":1003,"category":{"id":3,"name":"Birds"},"name":"Rocky","photoUrls":["https://pet.com/rocky.jpg"],"tags":[{"id":301,"name":"aggressive"}],"status":"sold"}
+18:23:06.789 [main] INFO  api.test.PetTests - ======== Pet found successfully with ID: 1003 ========
+18:23:06.789 [main] INFO  api.test.PetTests - Data integrity validated - All fields match between created and retrieved pet
+18:23:06.792 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.793 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.793 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.795 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.799 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.799 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.800 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.802 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.806 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.806 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.807 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.809 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.812 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.813 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.813 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.815 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.817 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.818 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.818 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.821 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.826 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.828 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.831 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.831 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.831 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.834 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.841 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.845 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.845 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.846 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.849 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.853 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.853 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.853 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.856 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.859 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.860 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.860 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.863 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.866 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.866 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.867 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.869 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.875 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.875 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.876 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.878 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.881 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.881 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.881 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.884 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.888 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.888 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.888 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.891 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.894 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.894 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.895 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.897 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.899 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.900 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.900 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.902 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.906 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.906 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.906 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.908 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.916 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.920 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.920 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.920 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.922 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.925 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.926 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.926 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.928 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.933 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.933 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.933 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.936 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.940 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.940 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.941 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.944 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.949 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.949 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.949 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.954 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.959 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.959 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.960 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.962 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:23:06.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:23:06.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:23:06.969 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:23:06.972 [main] INFO  api.test.PetTests - ======== Delete Pet Test Started ========
+18:23:06.972 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID for deletion
+18:23:08.137 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1001,"category":{"id":1,"name":"Dogs"},"name":"Bruno","photoUrls":["https://pet.com/bruno.jpg"],"tags":[{"id":101,"name":"friendly"}],"status":"available"}
+18:23:08.143 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1001
+18:23:08.143 [main] INFO  api.test.PetTests - Step 2: Verifying pet exists before deletion
+18:23:09.408 [main] INFO  api.test.PetTests - Pet verified to exist with ID: 1001
+18:23:09.408 [main] INFO  api.test.PetTests - Step 3: Deleting pet with dynamically captured ID: 1001
+18:23:10.603 [main] INFO  api.test.PetTests - Delete Pet Response Body: {"code":200,"type":"unknown","message":"1001"}
+18:23:10.604 [main] INFO  api.test.PetTests - Step 4: Verifying pet is deleted by attempting to retrieve it
+18:23:11.742 [main] INFO  api.test.PetTests - Get Pet After Delete Response Body: {"code":1,"type":"error","message":"Pet not found"}
+18:23:11.742 [main] INFO  api.test.PetTests - ======== Pet deleted successfully with ID: 1001 ========
+18:23:11.742 [main] INFO  api.test.PetTests - Deletion verified - Pet no longer exists in the system
+18:23:11.745 [main] INFO  api.test.PetTests - ======== Delete Pet Test Started ========
+18:23:11.745 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID for deletion
+18:23:13.171 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1002,"category":{"id":2,"name":"Cats"},"name":"Max","photoUrls":["https://pet.com/max1.jpg","https://pet.com/max2.jpg"],"tags":[{"id":201,"name":"cute"},{"id":202,"name":"trained"}],"status":"pending"}
+18:23:13.179 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1002
+18:23:13.179 [main] INFO  api.test.PetTests - Step 2: Verifying pet exists before deletion
+18:23:14.413 [main] INFO  api.test.PetTests - Pet verified to exist with ID: 1002
+18:23:14.413 [main] INFO  api.test.PetTests - Step 3: Deleting pet with dynamically captured ID: 1002
+18:23:15.720 [main] INFO  api.test.PetTests - Delete Pet Response Body: {"code":200,"type":"unknown","message":"1002"}
+18:23:15.721 [main] INFO  api.test.PetTests - Step 4: Verifying pet is deleted by attempting to retrieve it
+18:23:16.965 [main] INFO  api.test.PetTests - Get Pet After Delete Response Body: {"code":1,"type":"error","message":"Pet not found"}
+18:23:16.965 [main] INFO  api.test.PetTests - ======== Pet deleted successfully with ID: 1002 ========
+18:23:16.965 [main] INFO  api.test.PetTests - Deletion verified - Pet no longer exists in the system
+18:23:16.970 [main] INFO  api.test.PetTests - ======== Delete Pet Test Started ========
+18:23:16.970 [main] INFO  api.test.PetTests - Step 1: Creating pet to get dynamic ID for deletion
+18:23:18.287 [main] INFO  api.test.PetTests - Create Pet Response Body: {"id":1003,"category":{"id":3,"name":"Birds"},"name":"Rocky","photoUrls":["https://pet.com/rocky.jpg"],"tags":[{"id":301,"name":"aggressive"}],"status":"sold"}
+18:23:18.294 [main] INFO  api.test.PetTests - Pet created successfully with ID: 1003
+18:23:18.294 [main] INFO  api.test.PetTests - Step 2: Verifying pet exists before deletion
+18:23:19.584 [main] INFO  api.test.PetTests - Pet verified to exist with ID: 1003
+18:23:19.584 [main] INFO  api.test.PetTests - Step 3: Deleting pet with dynamically captured ID: 1003
+18:23:20.938 [main] INFO  api.test.PetTests - Delete Pet Response Body: {"code":200,"type":"unknown","message":"1003"}
+18:23:20.938 [main] INFO  api.test.PetTests - Step 4: Verifying pet is deleted by attempting to retrieve it
+18:23:22.091 [main] INFO  api.test.PetTests - Get Pet After Delete Response Body: {"code":1,"type":"error","message":"Pet not found"}
+18:23:22.091 [main] INFO  api.test.PetTests - ======== Pet deleted successfully with ID: 1003 ========
+18:23:22.091 [main] INFO  api.test.PetTests - Deletion verified - Pet no longer exists in the system
+18:42:09.379 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Started ========
+18:42:11.915 [main] INFO  api.test.StoreTests - Response Body: {"sold":68,"solt":1,"string":166,"alive":2,"invalid_status":1,"pending":69,"flying":1,"available":650,"Not Available":1,"Available":2}
+18:42:11.915 [main] INFO  api.test.StoreTests - ======== Step 1: Basic Contract Validation ========
+18:42:11.916 [main] INFO  api.test.StoreTests - ======== Step 2: Response Structure Validation ========
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: sold = 68
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: solt = 1
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: string = 166
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: alive = 2
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: invalid_status = 1
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: pending = 69
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: flying = 1
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: available = 650
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: Not Available = 1
+18:42:12.016 [main] DEBUG api.test.StoreTests - Status: Available = 2
+18:42:12.016 [main] INFO  api.test.StoreTests - ======== Step 3: Business Logic Validation ========
+18:42:12.017 [main] INFO  api.test.StoreTests - ✅ Required status 'available' exists with count: 650
+18:42:12.017 [main] INFO  api.test.StoreTests - ✅ Required status 'pending' exists with count: 69
+18:42:12.018 [main] INFO  api.test.StoreTests - ✅ Required status 'sold' exists with count: 68
+18:44:24.160 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Started ========
+18:44:26.599 [main] INFO  api.test.StoreTests - Response Body: {"sold":63,"solt":1,"string":166,"alive":2,"invalid_status":1,"pending":76,"flying":1,"available":646,"Not Available":1,"Available":2}
+18:44:26.600 [main] INFO  api.test.StoreTests - ======== Step 1: Basic Contract Validation ========
+18:44:26.601 [main] INFO  api.test.StoreTests - ======== Step 2: Response Structure Validation ========
+18:44:26.705 [main] DEBUG api.test.StoreTests - Status: sold = 63
+18:44:26.705 [main] DEBUG api.test.StoreTests - Status: solt = 1
+18:44:26.705 [main] DEBUG api.test.StoreTests - Status: string = 166
+18:44:26.705 [main] DEBUG api.test.StoreTests - Status: alive = 2
+18:44:26.705 [main] DEBUG api.test.StoreTests - Status: invalid_status = 1
+18:44:26.706 [main] DEBUG api.test.StoreTests - Status: pending = 76
+18:44:26.706 [main] DEBUG api.test.StoreTests - Status: flying = 1
+18:44:26.706 [main] DEBUG api.test.StoreTests - Status: available = 646
+18:44:26.706 [main] DEBUG api.test.StoreTests - Status: Not Available = 1
+18:44:26.706 [main] DEBUG api.test.StoreTests - Status: Available = 2
+18:44:26.706 [main] INFO  api.test.StoreTests - ======== Step 3: Business Logic Validation ========
+18:44:26.706 [main] INFO  api.test.StoreTests - ✅ Required status 'available' exists with count: 646
+18:44:26.706 [main] INFO  api.test.StoreTests - ✅ Required status 'pending' exists with count: 76
+18:44:26.706 [main] INFO  api.test.StoreTests - ✅ Required status 'sold' exists with count: 63
+18:44:26.706 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'solt'. Valid statuses are: [available, pending, sold]
+18:44:26.706 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'string'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'alive'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'invalid_status'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'flying'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Not Available'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Available'. Valid statuses are: [available, pending, sold]
+18:44:26.707 [main] WARN  api.test.StoreTests - ⚠️ Found 7 invalid status(es) in inventory: solt, string, alive, invalid_status, flying, Not Available, Available
+18:44:26.707 [main] INFO  api.test.StoreTests - ======== Step 4: Case Sensitivity Validation ========
+18:46:47.486 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Started ========
+18:46:49.893 [main] INFO  api.test.StoreTests - Response Body: {"sold":97,"solt":1,"string":150,"alive":2,"invalid_status":1,"pending":61,"flying":1,"available":649,"Not Available":1,"Available":2}
+18:46:49.893 [main] INFO  api.test.StoreTests - ======== Step 1: Basic Contract Validation ========
+18:46:49.894 [main] INFO  api.test.StoreTests - ======== Step 2: Response Structure Validation ========
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: sold = 97
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: solt = 1
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: string = 150
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: alive = 2
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: invalid_status = 1
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: pending = 61
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: flying = 1
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: available = 649
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: Not Available = 1
+18:46:49.999 [main] DEBUG api.test.StoreTests - Status: Available = 2
+18:46:49.999 [main] INFO  api.test.StoreTests - ======== Step 3: Business Logic Validation ========
+18:46:49.999 [main] INFO  api.test.StoreTests - ✅ Required status 'available' exists with count: 649
+18:46:49.999 [main] INFO  api.test.StoreTests - ✅ Required status 'pending' exists with count: 61
+18:46:50.000 [main] INFO  api.test.StoreTests - ✅ Required status 'sold' exists with count: 97
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'solt'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'string'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'alive'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'invalid_status'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'flying'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Not Available'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Available'. Valid statuses are: [available, pending, sold]
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Found 7 invalid status(es) in inventory: solt, string, alive, invalid_status, flying, Not Available, Available
+18:46:50.000 [main] INFO  api.test.StoreTests - ======== Step 4: Case Sensitivity Validation ========
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Case-inconsistent status found: 'Available' (duplicate of 'available')
+18:46:50.000 [main] WARN  api.test.StoreTests - ⚠️ Found 1 case-inconsistent status(es): Available
+18:46:50.000 [main] INFO  api.test.StoreTests - ======== Step 5: Data Accuracy Validation ========
+18:46:50.005 [main] INFO  api.test.StoreTests - Total inventory count: 965
+18:46:50.005 [main] INFO  api.test.StoreTests - ======== Step 6: Performance Validation ========
+18:55:58.224 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Started ========
+18:56:01.393 [main] INFO  api.test.StoreTests - Response Body: {"sold":87,"solt":1,"string":101,"alive":2,"invalid_status":1,"pending":65,"flying":1,"available":702,"Not Available":1,"Available":2}
+18:56:01.393 [main] INFO  api.test.StoreTests - ======== Step 1: Basic Contract Validation ========
+18:56:01.395 [main] INFO  api.test.StoreTests - ======== Step 2: Response Structure Validation ========
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: sold = 87
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: solt = 1
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: string = 101
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: alive = 2
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: invalid_status = 1
+18:56:01.505 [main] DEBUG api.test.StoreTests - Status: pending = 65
+18:56:01.506 [main] DEBUG api.test.StoreTests - Status: flying = 1
+18:56:01.506 [main] DEBUG api.test.StoreTests - Status: available = 702
+18:56:01.506 [main] DEBUG api.test.StoreTests - Status: Not Available = 1
+18:56:01.506 [main] DEBUG api.test.StoreTests - Status: Available = 2
+18:56:01.506 [main] INFO  api.test.StoreTests - ======== Step 3: Business Logic Validation ========
+18:56:01.506 [main] INFO  api.test.StoreTests - ✅ Required status 'available' exists with count: 702
+18:56:01.506 [main] INFO  api.test.StoreTests - ✅ Required status 'pending' exists with count: 65
+18:56:01.506 [main] INFO  api.test.StoreTests - ✅ Required status 'sold' exists with count: 87
+18:56:01.506 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'solt'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'string'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'alive'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'invalid_status'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'flying'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Not Available'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Invalid status found in inventory: 'Available'. Valid statuses are: [available, pending, sold]
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Found 7 invalid status(es) in inventory: solt, string, alive, invalid_status, flying, Not Available, Available
+18:56:01.507 [main] INFO  api.test.StoreTests - ======== Step 4: Case Sensitivity Validation ========
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Case-inconsistent status found: 'Available' (duplicate of 'available')
+18:56:01.507 [main] WARN  api.test.StoreTests - ⚠️ Found 1 case-inconsistent status(es): Available
+18:56:01.507 [main] INFO  api.test.StoreTests - ======== Step 5: Data Accuracy Validation ========
+18:56:01.511 [main] INFO  api.test.StoreTests - Total inventory count: 963
+18:56:01.511 [main] INFO  api.test.StoreTests - ======== Step 6: Performance Validation ========
+18:56:01.513 [main] INFO  api.test.StoreTests - Response time: 2389 ms
+18:56:01.513 [main] INFO  api.test.StoreTests - ======== Test Summary ========
+18:56:01.513 [main] INFO  api.test.StoreTests - Total status entries: 10
+18:56:01.513 [main] INFO  api.test.StoreTests - Total inventory count: 963
+18:56:01.514 [main] INFO  api.test.StoreTests - Response time: 2389 ms
+18:56:01.514 [main] INFO  api.test.StoreTests -   sold: 87
+18:56:01.514 [main] INFO  api.test.StoreTests -   solt: 1
+18:56:01.514 [main] INFO  api.test.StoreTests -   string: 101
+18:56:01.514 [main] INFO  api.test.StoreTests -   alive: 2
+18:56:01.514 [main] INFO  api.test.StoreTests -   invalid_status: 1
+18:56:01.514 [main] INFO  api.test.StoreTests -   pending: 65
+18:56:01.514 [main] INFO  api.test.StoreTests -   flying: 1
+18:56:01.514 [main] INFO  api.test.StoreTests -   available: 702
+18:56:01.514 [main] INFO  api.test.StoreTests -   Not Available: 1
+18:56:01.514 [main] INFO  api.test.StoreTests -   Available: 2
+18:56:01.514 [main] INFO  api.test.StoreTests - ======== Get Pet Inventory by Status Test Completed Successfully ========
+19:05:23.946 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:23.950 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:23.952 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.280 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.359 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.360 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:24.360 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.372 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.382 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.383 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:24.384 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.394 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.424 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.424 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:24.425 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.436 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.451 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.453 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:24.453 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.461 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.479 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.480 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:05:24.480 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:05:24.489 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+19:05:24.498 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:05:24.499 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
