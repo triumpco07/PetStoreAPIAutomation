@@ -122,6 +122,69 @@ public class DataProviders {
 
         return orderData;
     }
+    
+    @DataProvider(name = "FindOrderByIdData")
+    public Object[][] getFindOrderByIdData() throws IOException {
+
+        String path = System.getProperty("user.dir") + "/testData/FindOrderById.xlsx";
+        ExcelUtility xl = new ExcelUtility(path);
+
+        int rows = xl.getRowCount("FindOrderById");
+        int cols = xl.getCellCount("FindOrderById", 1);
+
+        Object[][] data = new Object[rows][cols];
+
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                data[i - 1][j] = xl.getCellData("FindOrderById", i, j);
+            }
+        }
+        return data;
+    }
+
+    @DataProvider(name = "DeleteOrderData")
+    public String[][] getDeleteOrderData() throws IOException {
+
+        String path = System.getProperty("user.dir") + "/testData/DeleteOrder.xlsx";
+        ExcelUtility xl = new ExcelUtility(path);
+
+        int rowCount = xl.getRowCount("DeleteOrder");
+        int colCount = xl.getCellCount("DeleteOrder", 1);
+
+        String[][] data = new String[rowCount][colCount];
+
+        for (int i = 1; i <= rowCount; i++) {
+            for (int j = 0; j < colCount; j++) {
+                data[i - 1][j] = xl.getCellData("DeleteOrder", i, j);
+            }
+        }
+        return data;
+    }
+    
+    
+    @DataProvider(name = "E2E_UserPetOrder")
+    public Object[][] getE2EUserPetOrderData() throws IOException {
+
+        String path = System.getProperty("user.dir") + "/testData/E2E_User_Pet_Order.xlsx";
+        ExcelUtility xl = new ExcelUtility(path);
+
+        String sheetName = "Sheet1";
+
+        int rowCount = xl.getRowCount(sheetName);
+        int colCount = xl.getCellCount(sheetName, 1);
+
+        Object[][] data = new Object[rowCount][colCount];
+
+        for (int i = 1; i <= rowCount; i++) {
+            for (int j = 0; j < colCount; j++) {
+                data[i - 1][j] = xl.getCellData(sheetName, i, j);
+            }
+        }
+        return data;
+    }
+
+
+
 
 
     

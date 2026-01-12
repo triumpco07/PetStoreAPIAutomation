@@ -42,5 +42,60 @@ public class StoreEndPoints {
 	    	    return response;
 
 	}
+	// FIND PURCHASE ORDER BY ID - Int
+	public static Response getOrderById(int orderId) {
+		
+		String get_order_by_id_url = getURL().getString("get_order_by_id_url");
+
+
+	    return io.restassured.RestAssured
+	            .given()
+	                .accept(io.restassured.http.ContentType.JSON)
+	                .pathParam("orderId", orderId)
+	            .when()
+	                .get(get_order_by_id_url)
+	            .then()
+	                .extract()
+	                .response();
+	}
+	// FIND PURCHASE ORDER BY ID - String
+
+	public static Response getOrderById(String orderId) {
+		
+		String get_order_by_id_url = getURL().getString("get_order_by_id_url");
+
+
+	    return io.restassured.RestAssured
+	            .given()
+	                .accept(io.restassured.http.ContentType.JSON)
+	                .pathParam("orderId", orderId)
+	            .when()
+	                .get(get_order_by_id_url)
+	            .then()
+	                .extract()
+	                .response();
+	}
+	
+	// ================= DELETE ORDER BY ID (VALID NUMERIC) =================
+	public static Response deleteOrderById(int orderId) {
+
+		String get_order_by_id_url = getURL().getString("get_order_by_id_url");
+
+	    return given()
+	            .pathParam("orderId", orderId)
+	        .when()
+	            .delete(get_order_by_id_url);
+	}
+	// ================= DELETE ORDER BY ID (INVALID / NON-NUMERIC) =================
+	public static Response deleteOrderById(String orderId) {
+		String get_order_by_id_url = getURL().getString("get_order_by_id_url");
+
+	    return given()
+	        .when()
+	            .delete(get_order_by_id_url + "/" + orderId);
+	}
+
+
+
 
 }

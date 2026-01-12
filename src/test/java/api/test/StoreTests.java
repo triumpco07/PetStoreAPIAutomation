@@ -434,6 +434,105 @@ public class StoreTests {
 
 	    logger.info("======== Place Order For Pet (DDT) Completed ========");
 	}
+	
+	// ================= FIND PURCHASE ORDER BY ID =================
+	@Test(priority = 5,dataProvider = "FindOrderByIdData", dataProviderClass = DataProviders.class)
+	public void testFindOrderById(
+	        String testCase,
+	        String orderId,
+	        String expectedStatus,
+	        String scenario) {
+
+	    Logger logger = LogManager.getLogger(this.getClass());
+	    ExtentTest test = ExtentReportManager.getTest();
+
+	    logger.info("Running {} | orderId={} | scenario={}", testCase, orderId, scenario);
+
+	    Response response;
+
+	    // Handle non-numeric IDs safely
+	    try {
+	        int id = Integer.parseInt(orderId);
+	        response = StoreEndPoints.getOrderById(id);
+	    } catch (NumberFormatException e) {
+	        response = StoreEndPoints.getOrderById(orderId);
+	    }
+
+	    int actualStatus = response.getStatusCode();
+
+	    // Status Code Assertion (COMMON FOR ALL)
+	    Assert.assertEquals(
+	        actualStatus,
+	        Integer.parseInt(expectedStatus),
+	        "Status code mismatch for " + testCase
+	    );
+
+	    // Scenario-specific assertions
+	    if (scenario.equalsIgnoreCase("valid")) {
+
+	        Assert.assertNotNull(response.jsonPath().get("id"));
+	        Assert.assertTrue(response.jsonPath().get("id") instanceof Number);
+
+	        Assert.assertTrue(response.jsonPath().get("status") instanceof String);
+
+	        if (test != null) {
+	            test.log(Status.PASS, testCase + " | Valid order fetched successfully");
+	        }
+
+	    } else {
+
+	        Assert.assertNotNull(response.jsonPath().get("message"));
+
+	        if (test != null) {
+	            test.log(Status.PASS, testCase + " | Error handled correctly");
+	        }
+	    }
+	}
+	
+	
+	@Test(
+		    priority = 6,
+			dataProvider = "DeleteOrderData",
+		    dataProviderClass = DataProviders.class
+		)
+		public void testDeleteOrderByIdDD(String orderId, String expectedStatus) {
+
+		    logger.info("Deleting order with ID: {}", orderId);
+		    ExtentTest test = getExtentTest();
+
+		    Response response;
+
+		    // Handle numeric vs non-numeric IDs safely
+		    try {
+		        int id = Integer.parseInt(orderId);
+		        response = StoreEndPoints.deleteOrderById(id);
+		    } catch (NumberFormatException e) {
+		        response = StoreEndPoints.deleteOrderById(orderId);
+		    }
+
+		    int actualStatus = response.getStatusCode();
+		    int expected = Integer.parseInt(expectedStatus);
+
+		    logger.info("Expected Status: {}, Actual Status: {}", expected, actualStatus);
+
+		    Assert.assertEquals(
+		        actualStatus,
+		        expected,
+		        "Status code mismatch for orderId: " + orderId
+		    );
+
+		    if (test != null) {
+		        test.log(Status.INFO, "Order ID: " + orderId);
+		        test.log(Status.INFO, "Expected Status: " + expected);
+		        test.log(Status.INFO, "Actual Status: " + actualStatus);
+		        test.log(Status.PASS, "Delete order validation passed");
+		    }
+		}
+
+
+
+
+
 
 
 }

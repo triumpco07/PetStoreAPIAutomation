@@ -2,7 +2,7 @@ package api.payload;
 
 public class User_Pojo {
 	
-	int id;
+	long id;
 	String username;
 	String firstName;
 	String lastName;
@@ -11,11 +11,11 @@ public class User_Pojo {
 	String phone;
 	int userStatus = 0;
 	
-	public int getId() {
+	public long getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId(long l) {
+		this.id = l;
 	}
 	public String getUsername() {
 		return username;
