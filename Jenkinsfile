@@ -6,6 +6,14 @@ pipeline {
         jdk 'JDK'
     }
 
+    parameters {
+        string(
+            name: 'SUITES',
+            defaultValue: 'testng.xml,testng_E2E.xml',
+            description: 'Comma-separated TestNG XML files to run'
+        )
+    }
+
     stages {
 
         stage('Checkout Code') {
@@ -16,8 +24,7 @@ pipeline {
 
         stage('Build & Run Tests') {
             steps {
-                bat 'mvn clean test -DsuiteXmlFiles=testng.xml,testng_E2E.xml'
-
+                bat "mvn clean test -DsuiteXmlFiles=${params.SUITES}"
             }
         }
     }
