@@ -1,527 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-12T19:37:53 IST" name="PetSuite" finished-at="2026-01-12T19:39:15 IST" duration-ms="81714">
+  <suite started-at="2026-01-13T14:37:20 IST" name="Default suite" finished-at="2026-01-13T14:37:38 IST" duration-ms="17595">
     <groups>
     </groups>
-    <test started-at="2026-01-12T19:37:53 IST" name="E2ETests" finished-at="2026-01-12T19:39:15 IST" duration-ms="81714">
-      <class name="api.test.E2ETests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:37:53 IST" name="setup" finished-at="2026-01-12T19:37:53 IST" duration-ms="468" status="PASS">
+    <test started-at="2026-01-13T14:37:20 IST" name="Default test" finished-at="2026-01-13T14:37:38 IST" duration-ms="17595">
+      <class name="api.test.PetTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.PetTests@2f4948e4]" started-at="2026-01-13T14:37:20 IST" name="setup" finished-at="2026-01-13T14:37:21 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:37:55 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:05 IST" duration-ms="9850" status="PASS">
+        <test-method signature="testDeletePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:api.test.PetTests@2f4948e4]" started-at="2026-01-13T14:37:22 IST" name="testDeletePet" data-provider="PetData" finished-at="2026-01-13T14:37:29 IST" duration-ms="6625" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[alice01]]>
+                <![CDATA[1001]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Alice]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Smith]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[alice01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000001]]>
-              </value>
-            </param>
-            <param index="6">
               <value>
                 <![CDATA[Bruno]]>
               </value>
             </param>
-            <param index="7">
+            <param index="2">
               <value>
                 <![CDATA[available]]>
               </value>
             </param>
-            <param index="8">
+            <param index="3">
               <value>
                 <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dogs]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://pet.com/bruno.jpg]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[friendly]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:05 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:13 IST" duration-ms="7781" status="PASS">
+        </test-method> <!-- testDeletePet -->
+        <test-method signature="testDeletePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:api.test.PetTests@2f4948e4]" started-at="2026-01-13T14:37:29 IST" name="testDeletePet" data-provider="PetData" finished-at="2026-01-13T14:37:33 IST" duration-ms="4677" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[john01]]>
+                <![CDATA[1002]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wick]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[john01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000002]]>
-              </value>
-            </param>
-            <param index="6">
               <value>
                 <![CDATA[Max]]>
               </value>
             </param>
-            <param index="7">
+            <param index="2">
               <value>
-                <![CDATA[available]]>
+                <![CDATA[pending]]>
               </value>
             </param>
-            <param index="8">
+            <param index="3">
               <value>
                 <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cats]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://pet.com/max1.jpg,https://pet.com/max2.jpg]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[201,202]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cute,trained]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:13 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:20 IST" duration-ms="7749" status="PASS">
+        </test-method> <!-- testDeletePet -->
+        <test-method signature="testDeletePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:api.test.PetTests@2f4948e4]" started-at="2026-01-13T14:37:33 IST" name="testDeletePet" data-provider="PetData" finished-at="2026-01-13T14:37:38 IST" duration-ms="4766" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[emma01]]>
+                <![CDATA[1003]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Emma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Watson]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[emma01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000003]]>
-              </value>
-            </param>
-            <param index="6">
               <value>
                 <![CDATA[Rocky]]>
               </value>
             </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:20 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:28 IST" duration-ms="7760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mike01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mike]]>
-              </value>
-            </param>
             <param index="2">
               <value>
-                <![CDATA[Tyson]]>
+                <![CDATA[sold]]>
               </value>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[mike01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000004]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Buddy]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
               <value>
                 <![CDATA[3]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:28 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:36 IST" duration-ms="7700" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sara01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sara]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sara01@test.com]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[Test@123]]>
+                <![CDATA[Birds]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[9000000005]]>
+                <![CDATA[https://pet.com/rocky.jpg]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Charlie]]>
+                <![CDATA[301]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[1]]>
+                <![CDATA[aggressive]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:36 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:44 IST" duration-ms="7654" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[david01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[David]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Warner]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[david01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000006]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Oscar]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:44 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:51 IST" duration-ms="7697" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nina01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nina]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Brown]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nina01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000007]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Milo]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:51 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:38:59 IST" duration-ms="7683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tom01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Hardy]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[tom01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000008]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Leo]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:38:59 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:39:07 IST" duration-ms="7804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[olivia01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Olivia]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Green]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[olivia01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000009]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Simba]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-        <test-method signature="testE2E_User_PlaceOrder_ForPet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.E2ETests@5542c4ed]" started-at="2026-01-12T19:39:07 IST" name="testE2E_User_PlaceOrder_ForPet" data-provider="E2E_UserPetOrder" finished-at="2026-01-12T19:39:15 IST" duration-ms="7759" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jack01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Ryan]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[jack01@test.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9000000010]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Teddy]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE2E_User_PlaceOrder_ForPet -->
-      </class> <!-- api.test.E2ETests -->
-    </test> <!-- E2ETests -->
-  </suite> <!-- PetSuite -->
+        </test-method> <!-- testDeletePet -->
+      </class> <!-- api.test.PetTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
