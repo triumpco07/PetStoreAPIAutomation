@@ -16,7 +16,8 @@ pipeline {
 
         stage('Build & Run Tests') {
             steps {
-                bat 'mvn clean test'
+                bat 'mvn clean test -DsuiteXmlFiles=testng.xml,testng_E2E.xml'
+
             }
         }
     }
