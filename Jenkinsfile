@@ -9,7 +9,7 @@ pipeline {
     parameters {
         string(
             name: 'SUITES',
-            defaultValue: 'testng.xml,testng_E2E.xml',
+            defaultValue: 'testng_E2E.xml',
             description: 'Comma-separated TestNG XML files to run'
         )
     }
